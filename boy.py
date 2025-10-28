@@ -142,4 +142,4 @@ class Boy:
             print('FIRE BALL')
             #실제로 볼을 생성해주야한다.
             ball = Ball(self.x, self.y, self.face_dir * 10)
-            game_world.add_object(ball)
+            game_world.add_object(ball , 1)
